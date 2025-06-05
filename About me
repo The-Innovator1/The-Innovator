@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me - Bhagyashri Rathod</title>
+  <style>
+    body {
+      background-color: #001f3f;
+      color: #00ccff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .wave-text span {
+      display: inline-block;
+      animation-name: wave;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .wave-text span:nth-child(odd) {
+      animation-delay: 0.2s;
+    }
+    .wave-text span:nth-child(even) {
+      animation-delay: 0.4s;
+    }
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 20px auto;
+      line-height: 1.5;
+      color: #99eaff;
+    }
+    .skills {
+      margin-top: 30px;
+    }
+    .skill {
+      display: inline-block;
+      background-color: #004466;
+      color: #00ccff;
+      padding: 10px 18px;
+      margin: 6px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: default;
+      user-select: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="wave-text" aria-label="Hi, I am Bhagyashri Rathod">
+    <span>H</span><span>i</span>
+    <span>B</span><span>h</span><span>a</span><span>g</span><span>y</span><span>a</span><span>s</span><span>h</span><span>r</span><span>i</span>
+  </h1>
+
+  <p>
+    I am a Computer Engineering student who loves coding, learning new tech, and working on cool projects like RC aircraft and AI innovations.
+  </p>
+
+  <div class="skills">
+    <div class="skill">C</div>
+    <div class="skill">Java</div>
+    <div class="skill">Bootstrap</div>
+    <div class="skill">AI tools</div>
+    <div class="skill">Frontend</div>
+  </div>
+
+</body>
+</html>
